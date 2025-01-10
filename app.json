@@ -1,0 +1,10 @@
+{
+  "name": "fjuchristianvibes",
+  "displayName": "fju-christian-vibes",
+  "slug": "fju-christian-vibes",
+
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-7786160325545043~4922078282"
+  }
+
+}
