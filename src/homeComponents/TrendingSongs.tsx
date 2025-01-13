@@ -5,7 +5,7 @@ import { Track, usePlayerContext } from '../store/trackPlayerContext';
 import axios from 'axios';
 import { Colors } from '../constants/colors';
 
-const trendImage = 'https://firebasestorage.googleapis.com/v0/b/sleekstyle-98723.appspot.com/o/Logo_FJU.jpg?alt=media&token=b498e1fc-56e4-440a-92ea-ed6f39d2f859';
+const trendImage = 'https://firebasestorage.googleapis.com/v0/b/fjusongs.appspot.com/o/vipPlayicon.jpg?alt=media&token=e4123ad3-bb43-46e6-a1ff-47848544f3fc';
 const TrendingSongs = () => {
 
   const [trendingSongs, setTrendingSongs] = useState<Track[]>([]);

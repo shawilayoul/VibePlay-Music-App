@@ -56,7 +56,7 @@ export default function PlayerProvider({ children }: { children: React.ReactNode
     const [totalTracks, setTotalTracks] = useState(0);
     const [favorites, setFavorites] = useState<Track[]>([]);
 
-    const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+    const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 
     const [userToken, setUserToken] = useState<string | null>(null);
     const [userName, setUserName] = useState<string | null>(null);

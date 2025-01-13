@@ -88,7 +88,7 @@ const FloadPlayer: React.FC = () => {
   const [songCount, setSongCount] = useState(0);
   const [isAdReady, setIsAdReady] = useState(false);
   const [adShownAt, setAdShownAt] = useState<number | null>(null); // Track last song count when ad was shown
-  const interstitial = React.useMemo(() => InterstitialAd.createForAdRequest('no ads'), []); //ca-app-pub-7786160325545043/5905583358
+  const interstitial = React.useMemo(() => InterstitialAd.createForAdRequest('ca-app-pub-7786160325545043/5905583358'), []); //ca-app-pub-7786160325545043/5905583358
 
   // Load the interstitial ad and set up listeners
   useEffect(() => {

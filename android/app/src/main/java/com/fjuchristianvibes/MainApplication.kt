@@ -1,4 +1,4 @@
-package com.vibePlay
+package com.fjuchristianvibes
 
 import android.app.Application
 import com.facebook.react.PackageList

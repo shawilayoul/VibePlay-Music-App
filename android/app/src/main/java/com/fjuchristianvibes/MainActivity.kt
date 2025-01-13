@@ -1,4 +1,4 @@
-package com.vibePlay
+package com.fjuchristianvibes
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

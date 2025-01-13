@@ -14,7 +14,7 @@ interface Props {
     currentTrackId: string | null;
 }
 
-const trackImg = 'https://firebasestorage.googleapis.com/v0/b/fjusongs.appspot.com/o/Logo_FJU.jpg?alt=media&token=5ab9414c-ad03-4527-aac4-983775e57b87';
+const trackImg = 'https://firebasestorage.googleapis.com/v0/b/fjusongs.appspot.com/o/vipPlayicon.jpg?alt=media&token=e4123ad3-bb43-46e6-a1ff-47848544f3fc';
 
 const UsePlayItems: React.FC<Props> = ({ selectedTrack, track, playing = false, handleLikeToggle, isLiked, currentTrackId }) => {
 
@@ -69,23 +69,13 @@ const UsePlayItems: React.FC<Props> = ({ selectedTrack, track, playing = false, 
                 </TouchableOpacity>
 
                 {/* Play/Pause Button */}
-                <TouchableOpacity
-                    accessibilityLabel={isPlaying ? `Pause ${track?.title}` : `Play ${track?.title}`}
-                    accessibilityRole="button"
-                    accessibilityHint={isPlaying ? `Pauses ${track?.title}` : `Plays ${track?.title}`}
-                    style={{
-                        height: 50,
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                    }}
-                >
+
                 <Icon
                     name={(isPlaying && playing) ? 'pause' : 'play'}
                     size={24}
                     color={(isPlaying && playing) ? styles.activeIcon.color : styles.playIcon.color}
 
                 />
-           </TouchableOpacity>
 
             </View>
         </Pressable>
@@ -137,7 +127,7 @@ const lightStyles = StyleSheet.create({
         fontWeight: 'bold',
         marginBottom: 4,
         color: Colors.title,
-        flexWrap:'wrap',
+        flexWrap: 'wrap',
     },
 
     // Artist Text Styling
