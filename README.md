@@ -18,7 +18,7 @@
 - 🔍 **Search & Explore**: Discover songs, playlist, or artists easily.
 - 🎵 **Playlist Support**: Create, edit, and save playlists.
 - 👥 **User Authentication**: Secure login & registration.
-- ⚙️ **Real-Time Features**: Live streaming support and data syncing.
+- ⚙️ **Real-Time Features**: Live streaming support.
 - 📱 **Responsive UI**: Smooth and polished interface using React Native + CSS modules.
 
 ### 🛠️ Tech Stack
@@ -31,7 +31,7 @@
 ## 🖥️ Admin Dashboard
 
 A powerful admin panel for managing:
-- 🎵 Songs & Albums
+- 🎵 Songs & paylist
 - 🖼️ Cover Art & Media
 - 👥 Users & Roles
 
