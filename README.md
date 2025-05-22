@@ -35,10 +35,8 @@ A powerful admin panel for managing:
 - Cover Art & Media
 - Users & Roles
 
-## Installation
+## step 1: Installation
 
-### Mobile App (React Native)
-```bash
 https://github.com/shawilayoul/VibePlay-Music-App.git
 cd vibeplay-Music-app/mobile
 npm install
