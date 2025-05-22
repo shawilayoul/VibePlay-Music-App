@@ -3,39 +3,39 @@
 
 > A cross-platform music streaming app built with React Native, NestJS, and Firebase, featuring live streaming, playlist management, and a full admin dashboard.
 
-📱 **Available on Google Play Store**  
+ **Available on Google Play Store**  
 👉 [Download VibePlay](https://play.google.com/store/apps/details?id=com.fjuchristianvibes&hl=en_US)
 
-## 🚀 Overview
+## Overview
 
 **VibePlay** is a feature-rich, cross-platform music streaming application designed for music lovers. Developed using modern technologies to deliver high performance, scalability, and a smooth user experience.
 
-### 🔧 Features
+### Features
 
-- 🎧 **Music Streaming**: Stream tracks live with fast loading and playback.
-- 📁 **Secure Media Storage**: Songs and images stored with Firebase.
-- 🧑‍💻 **Admin Dashboard**: Web-based content and user management dashboard using React + Tailwind CSS.
-- 🔍 **Search & Explore**: Discover songs, playlist, or artists easily.
-- 🎵 **Playlist Support**: Create, edit, and save playlists.
-- 👥 **User Authentication**: Secure login & registration.
-- ⚙️ **Real-Time Features**: Live streaming support.
-- 📱 **Responsive UI**: Smooth and polished interface using React Native + CSS modules.
+- **Music Streaming**: Stream tracks live with fast loading and playback.
+- **Secure Media Storage**: Songs and images stored with Firebase.
+- **Admin Dashboard**: Web-based content and user management dashboard using React + Tailwind CSS.
+- **Search & Explore**: Discover songs, playlist, or artists easily.
+- **Playlist Support**: Create, edit, and save playlists.
+- **User Authentication**: Secure login & registration.
+- **Real-Time Features**: Live streaming support.
+- **Responsive UI**: Smooth and polished interface using React Native + CSS modules.
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 - **Mobile App**: React Native, TypeScript, CSS Modules
 - **Backend API**: NestJS, MongoDB, Prisma
 - **Storage & Auth**: Firebase (image Storage)
 - **Admin Panel**: React, Tailwind CSS
 
-## 🖥️ Admin Dashboard
+## Admin Dashboard
 
 A powerful admin panel for managing:
-- 🎵 Songs & paylist
-- 🖼️ Cover Art & Media
-- 👥 Users & Roles
+- Songs & paylist
+- Cover Art & Media
+- Users & Roles
 
-## 📦 Installation
+## Installation
 
 ### Mobile App (React Native)
 ```bash
